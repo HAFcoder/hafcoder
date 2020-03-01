@@ -16,26 +16,32 @@
     padding: 0 2rem 0 5rem;
 }
 
+.header_area{
+    background: linear-gradient(180deg, rgba(4,3,10,1) 0%, rgba(20,8,128,1) 100%);
+}
+.navbar-brand{
+    color:#FFFFFF;
+}
+.header-name{
+    color: #FFFFFF;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
 .header_area .main-menu .navbar{
     padding: 1rem 20rem ;
 }
 
 .header_area .main-menu .nav-item .nav-link{
-    font: normal 500 15px/2px var(--roboto);
+    font: normal 500 15px/2px "Franklin Gothic";
     text-transform: uppercase;
     padding: 1.7rem;
-    color: var(--title-color);
+    color:#FFFFFF;
 }
 
-.header_area .main-menu .navbar-nav .active a{
-    background: var(--gradient-color);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-}
+
 
 .header_area .main-menu .navbar-nav a:hover{
-    background: var(--gradient-color);
+    background:  rgba(81,117,235,1);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -47,12 +53,16 @@
 /* Banner Area */ 
 
 .site-main .site-banner {
-    background: url(../img/banner/home-banner.png) no-repeat 0% 50%;
+    background:  no-repeat 0% 50%;
+}
+.site-main{
+  background: linear-gradient(408.8deg, rgba(135,115,189,1) 0%, rgba(81,117,235,1) 100%);
 }
 
 .site-main .site-banner .site-title h3{
-    padding-top: 35%;
+    padding-top: 7%;
     font-weight: 500;
+    color:#EAE3E3;
 }
 
 .site-main .site-banner .site-title h3::after{
@@ -67,17 +77,20 @@
 
 .site-main .site-banner .site-title h1{
     font-size: 5rem;
+    color:#EAE3E3;
 }
 
 .site-main .site-banner .site-title h4{
     font-size: 1.5rem;
 }
 
-.site-main .site-banner .banner-image > img{
-    padding: 7rem 0;
-    width: 90rem;
+.site-main .site-banner > img{
+    width: 50rem;
 }
 
+.banner-image img{
+    width: 1rem;
+}
 
 
 /* End Banner Area */ 
@@ -114,7 +127,7 @@
 }
 
 .site-main .brand-area .first-row .col-lg-4 > .single-brand{
-    border: 1px solid var(--border-color);
+    border: 2px solid #4B4B4B;
     text-align: center;
     padding: 1.8rem 0rem;
     margin: .9rem 0;
@@ -130,7 +143,7 @@
 
 .site-main .brand-area .first-row .col-lg-4 > .single-brand:hover{
     box-shadow: var(--box-shadow);
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 .site-main .brand-area .first-row .col-lg-4 > .single-brand:hover > img{
@@ -194,8 +207,13 @@
     font-size: 35px;
 }
 
+.services-title p{
+    color:#EAE3E3;
+}
+
 .site-main > .services-area .services{
-    background: rgba(248, 252, 253, 0.973);
+    border: 2px solid #4B4B4B;
+    background: #EDEAFF;
     padding: 2rem 0;
     width: 16rem;
     margin: 5rem .5rem;
@@ -204,6 +222,7 @@
 
 .site-main > .services-area .services:hover{
     box-shadow: var(--box-shadow);
+    transform: scale(1.1);
 }
 
 
@@ -244,6 +263,10 @@
 
 .site-main .about-area .about-title p{
     padding: 1rem 7rem;
+    color:#EAE3E3;
+}
+.about-title h1{
+    color:#EAE3E3;
 }
 
 .site-main .about-area .client{
@@ -258,6 +281,14 @@
 
 .site-main .about-area .client .about-client{
     padding-top: 2rem;
+}
+
+.about-client h4{
+    color:#FFFFFF;
+}
+
+.about-client p{
+    color:#EAE3E3;
 }
 
 .site-main .about-area .client .about-client h4{
